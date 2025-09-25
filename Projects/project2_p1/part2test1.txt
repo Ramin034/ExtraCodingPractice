@@ -1,0 +1,9 @@
+1
+movies.txt
+2
+ratings.txt
+6
+This movie
+9
+
+./a.out < part2test1.txt
