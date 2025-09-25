@@ -1,0 +1,40 @@
+/* css-cascading style sheets */
+/* class html tag html tag.... */
+
+.header {
+    margin-top: 100px;
+}
+
+.table_div table, th, td {
+    border: 1px solid blueviolet;
+    text-align: center;
+    width: 70%;
+}
+
+.index_div {
+    background-color: beige;
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.index_div ul{
+    list-style-type: none;
+    overflow: hidden;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.index_div li a {
+    float: left;
+    text-decoration: none;
+    color: palevioletred;
+    padding: 20px 20px;
+    display: block;
+}
+
+.index_div li a:hover {
+    background-color: palevioletred;
+    color: beige;
+}
